@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/EPre"
+            android:icon="@drawable/loc"
+            android:title="Edit Prescription" />
+        <item
+            android:id="@+id/EProf"
+            android:icon="@drawable/zooms"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/SDPres"
+            android:icon="@drawable/pharmys"
+            android:title="Set Default Pharmacy" />
+        <item
+            android:id="@+id/logOut"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="LogOut" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/LogOuts"
+                android:icon="@drawable/ic_menu_share"
+                android:title="SignOuts" />
+
+        </menu>
+    </item>
+
+
+</menu>

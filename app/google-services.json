@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "949020768801",
+    "firebase_url": "https://pharmacie-84f3a.firebaseio.com",
+    "project_id": "pharmacie-84f3a",
+    "storage_bucket": "pharmacie-84f3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949020768801:android:3574f4125fb393d2",
+        "android_client_info": {
+          "package_name": "com.example.tih.pharmacie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949020768801-v02vllckiihitidosor0576kuauftbqq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tih.pharmacie",
+            "certificate_hash": "3d426a71a3c2d9d8108b0e29acd4c62920213e49"
+          }
+        },
+        {
+          "client_id": "949020768801-j3n6eo9p830qdud5n5130m5okji2hiv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEs6tP8HTKAYLZkBBO3iGufl_5LzH62uA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949020768801-j3n6eo9p830qdud5n5130m5okji2hiv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949020768801:android:cac3b98bda644b64",
+        "android_client_info": {
+          "package_name": "the31st.pharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949020768801-jgl2kutv37n1d8e3i8mk7d5c69gen840.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "the31st.pharmacy",
+            "certificate_hash": "3d426a71a3c2d9d8108b0e29acd4c62920213e49"
+          }
+        },
+        {
+          "client_id": "949020768801-j3n6eo9p830qdud5n5130m5okji2hiv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEs6tP8HTKAYLZkBBO3iGufl_5LzH62uA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949020768801-j3n6eo9p830qdud5n5130m5okji2hiv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949020768801:android:81d7f7910941bf7b",
+        "android_client_info": {
+          "package_name": "the31st.my_pharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949020768801-5vucaoh0spg2fbov4dqvp1gs69k2r59v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "the31st.my_pharmacy",
+            "certificate_hash": "3d426a71a3c2d9d8108b0e29acd4c62920213e49"
+          }
+        },
+        {
+          "client_id": "949020768801-j3n6eo9p830qdud5n5130m5okji2hiv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEs6tP8HTKAYLZkBBO3iGufl_5LzH62uA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949020768801-j3n6eo9p830qdud5n5130m5okji2hiv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

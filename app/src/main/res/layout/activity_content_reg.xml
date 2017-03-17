@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        Button
+        android:id="@+id/btnNext"
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:background="@android:color/holo_blue_light"
+                android:src="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Your Information"
+                    android:textSize="18dp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+
+                <EditText
+                    android:id="@+id/sickness"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="Enter Terminal or Very sick" />
+
+                <EditText
+                    android:id="@+id/stage_sickness"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="Enter Stage of sickness" />
+
+                <EditText
+                    android:id="@+id/dr_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="Enter Your Dr's Name" />
+
+                <EditText
+                    android:id="@+id/dr_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="Enter Your Dr's Email" />
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:layout_marginTop="2dp"
+                    android:hint="Set your Default Pharmacy      ( Enter Your Address)" />
+
+                <EditText
+                    android:id="@+id/prescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="Enter Your Prescription" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/kin_icon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:background="@android:color/holo_blue_light"
+                android:src="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Next Of Kin Information"
+                    android:textSize="18dp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+
+                <EditText
+                    android:id="@+id/kin_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="Full Name" />
+
+                <EditText
+                    android:id="@+id/kin_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="Phone Number" />
+
+                <EditText
+                    android:id="@+id/kin_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="E-mail" />
+
+                <Button
+                    android:id="@+id/btnPreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Preview" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

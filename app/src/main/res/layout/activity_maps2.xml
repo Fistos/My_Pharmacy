@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnPharma"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="18dp"
+        android:background="@drawable/search_p"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/linearLayout"
+                android:layout_alignParentTop="true"
+                tools:context="the31st.my_pharmacy.MapsActivity" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="3">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
